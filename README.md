@@ -1,5 +1,3 @@
-
-
 <link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist@4.5.0/swagger-ui.css" />
 
 <div id="swagger-ui"></div>
@@ -9,13 +7,13 @@
 <script>
   window.onload = () => {
     window.ui = SwaggerUIBundle({
-      url: 'https://petstore3.swagger.io/api/v3/openapi.json',
+      url: 'https://raw.githubusercontent.com/vitor-faculdade/teste/main/teste.yaml',
       dom_id: '#swagger-ui',
-      presets: [
-        SwaggerUIBundle.presets.apis,
-        SwaggerUIStandalonePreset
-      ],
-      layout: "StandaloneLayout",
+      // presets: [
+      //   SwaggerUIBundle.presets.apis,
+      //   SwaggerUIStandalonePreset
+      // ],
+      // layout: "StandaloneLayout",
     });
   };
   console.log('teste');
