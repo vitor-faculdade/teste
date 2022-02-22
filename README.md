@@ -18,4 +18,5 @@
       layout: "StandaloneLayout",
     });
   };
+  console.log('teste');
 </script>
