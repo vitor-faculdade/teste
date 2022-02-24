@@ -1,3 +1,0 @@
-g add .
-g ci -m 'teste'
-g push
